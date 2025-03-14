@@ -1,0 +1,58 @@
+html, body {
+    margin: 0;
+}
+
+body {
+    font-family: Inter;
+}
+
+.container {
+    margin: 45px 40px;
+}
+
+header {
+    background: #F55A5A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 55px;
+}
+
+header > img {
+    width: 24px;
+    margin-right: 7px;
+}
+
+.marker {
+    width: 15px;
+}
+
+.img-entry {
+    width: 125px;
+    height: 168px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.journal-entry {
+    margin: 20px;
+    display: flex;
+}
+
+.main-image-container {
+    display: flex;
+}
+.entry-title {
+    font-size: 0.9rem;
+}
+.trip-dates {
+    font-size: 0.8rem;
+}
+.entry-text {
+    font-size: 0.8rem;
+}
+.country {
+    margin-right: 20px;
+    font-size: 0.8rem;
+}

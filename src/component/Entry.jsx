@@ -1,3 +1,5 @@
+import imgMarker from "../images/marker.png"
+
 function Entry(props) {
   return (
     <>
@@ -8,7 +10,7 @@ function Entry(props) {
         <div className="info-container">
           <img
             className="marker"
-            src="../src/images/marker.png"
+            src={imgMarker}
             alt="map marker icon"
           />
           <span className="country">{props.country}</span>

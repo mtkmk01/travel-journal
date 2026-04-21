@@ -1,4 +1,4 @@
-import imgMarker from "../images/marker.png"
+import imgMarker from "./images/marker.png"
 
 function Entry(props) {
   return (

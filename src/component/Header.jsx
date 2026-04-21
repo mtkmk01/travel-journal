@@ -1,4 +1,4 @@
-import imgHeader from "./images/globe.png";
+import imgHeader from "../images/globe.png";
 
   export default function Header() {
   return (
